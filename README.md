@@ -57,11 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello Rails React] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> Hello Rails React is a simple web app that combines functionalities of Ruby on Rails and React. It allows users to get a random greeting from the backend API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,13 +71,14 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -94,11 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+> It allows a user to get random greeting
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Coming soon.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -116,21 +111,17 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+- Ruby development environment
+- Rails
+- Node
+- npm or yarn
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -141,7 +132,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:aron-helu/hello-rails-react-.git
 ```
 --->
 
@@ -153,8 +144,9 @@ Install this project with:
 Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd hello-rails-react-
+  bundle install
+  yarn install || npm install
 ```
 --->
 
@@ -166,7 +158,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  ./bin/dev
 ```
 --->
 
@@ -178,7 +170,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec
 ```
 --->
 
@@ -190,7 +182,7 @@ You can deploy this project using:
 Example:
 
 ```sh
-
+  git push heroku main
 ```
  -->
 
@@ -198,21 +190,14 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Aron**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Aaron](https://github.com/aron-helu)
+- LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,11 +205,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+> It will allow users to record their greeting.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> If you like this project you can give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,9 +231,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> I would like to thank the Microverse curriculum.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
